@@ -1,0 +1,345 @@
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5?styles=103510');
+*{
+    font-family: 'Helvetica', Arial, sans-serif;               
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    
+   }
+
+html, body {
+    scroll-behavior: smooth;
+    scroll-padding-top: 54px;
+ }
+
+.bg-merah{
+    background: rgb(210, 1, 37, 0.7) !important;
+}
+.bg-danger{
+    background: rgb(234, 2, 42) !important;
+}
+
+.nav-link {
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 14px;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 2px !important;
+}
+
+.nav-link.top-navv:hover {
+   color: #00334e;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown:active {
+    pointer-events: none;
+}
+
+.header-text {
+    font-family: 'Helvetica', Arial, sans-serif;     
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.7;
+}
+.rules {
+    font-family: 'Helvetica', Arial, sans-serif;     
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.ruless {
+    font-family: 'Helvetica', Arial, sans-serif;     
+    font-size: 16px;
+    text-align: justify;
+}
+
+.rounded-tl-3xl {
+    border-top-left-radius: 1.5rem !important; /* Adjust the value as needed */
+    border-bottom-right-radius: 1.5rem !important; /* Adjust the value as needed */
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+.bg-red{
+    background-color: #EA022A;
+}
+#jadwal{
+    background-image: url(../assets/images/jadwal.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.btn-red {
+    color: #fff;
+    background-color: #8C0119;
+    border: 4px solid #8C0119; /* thicker border */
+    border-radius: 0; /* remove rounded corners */
+    transition: color .4s, border-color .4s, background-color .4s; /* add transition with 1s delay */
+    padding: 15px 2px 15px; /* add padding to give some space inside the button */
+    font-size: 14px; /* adjust font size as needed */
+}
+
+.btn-red:hover, .btn-red:focus, .btn-red:active, .btn-red.active, .open>.dropdown-toggle.btn-red {
+    color: #000;
+    background-color: transparent; /* maintain background color */
+    border-color: #8C0119; /* set the color you want here */
+}
+.fd-in {
+    animation: fadeIn 2s;
+  }
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+  
+.btn-jalur.btn.active {
+    background-color: #00334e !important; /* Warna biru tua */
+}
+
+.info-icon {
+    background-color: #025A80;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 90px;
+}
+
+.info-content {
+    flex-grow: 1;
+}
+.fa-size {
+    font-size: 35px; /* Set your desired size */
+}
+.fa-size-2 {
+    font-size: 30px; /* Set your desired size */
+}
+
+.btn-proteksi {
+    color: #fff;
+    background-color: #083c54;
+    border: 4px solid #083c54;
+    border-radius: 0;
+    transition: color .4s, border-color .4s, background-color .4s;
+    padding: 15px 2px 15px; 
+    font-size: 14px; 
+}
+.btn-proteksi .btn-proteksi.active {
+    background-color: #000000;
+}
+
+.btn-proteksi:hover, .btn-proteksi:focus, .btn-proteksi:active, .btn-proteksi.active, .open>.dropdown-toggle.btn-proteksi {
+    color: #000;
+    background-color: #fff ;
+    border-color: #083c54;
+}
+
+
+.btn-unduh {
+    color: #fff;
+    background-color: #f0042c;
+    border: 4px solid #f0042c;
+    border-radius: 0;
+    transition: color .4s, border-color .4s, background-color .4s;
+    padding: 15px 2px 15px; 
+    font-size: 14px; 
+}
+
+.btn-unduh:hover, .btn-unduh:focus, .btn-unduh:active, .btn-unduh.active, .open>.dropdown-toggle.btn-proteksi {
+    color: #000;
+    background-color: transparent;
+    border-color: #083c54;
+}
+
+.btn-galeri {
+    color: #ffffff;
+    background-color: #083c54;
+    border: 4px solid #083c54;
+    border-radius: 0;
+    transition: color .4s, border-color .4s, background-color .4s;
+    padding: 225px 2px 25px; 
+    font-size: 14px; 
+    
+}
+
+.btn-galeri:hover, .btn-galeri:focus, .btn-galeri:active, .btn-galeri.active, .open>.dropdown-toggle.btn-proteksi {
+    color: #000;
+    background-color: transparent;
+    border-color: #083c54;
+}
+
+
+
+.accordion-button {
+    background-color: transparent;
+    color: #000;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    padding: 1rem 1.25rem;
+    border-bottom: 2px solid #000;
+    transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+    position: relative; /* Ensure the icon is positioned correctly */
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #025A80;
+    border-bottom-color: #025A80;
+    background-color: transparent;
+}
+
+.accordion-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    border-radius: 50%;
+    border: 2px solid #000; /* Circle border color */
+    background-color: #fff; /* Circle background color */
+    margin-left: 10px; /* Space between text and icon */
+    transition: transform 0.3s; /* Smooth rotation */
+}
+
+.accordion-button:not(.collapsed) .accordion-icon-wrapper {
+    transform: rotate(180deg); /* Rotate when expanded */
+}
+
+.accordion-icon {
+    color: #000; /* Arrow color */
+    font-size: 16px; /* Adjust size as needed */
+}
+
+.accordion-item, .accordion-body {
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+.imgfaq {
+    width: 220px !important;
+}
+
+@media (max-width: 1024px) {
+    .galeri {
+        width: 100%;
+        
+    }
+    .imgfaq {
+        width: 100px !important;
+    }
+}
+.btn-galeri {
+    color: #fff;
+    background-color: #083c54;
+    border: 4px solid #083c54;
+    border-radius: 0;
+    transition: color .4s, border-color .4s, background-color .4s;
+    padding: 15px 2px 15px; 
+    font-size: 14px; 
+}
+
+.btn-galeri:hover, .btn-galeri:focus, .btn-galeri:active, .btn-galeri.active, .open>.dropdown-toggle.btn-galeri {
+    color: #000;
+    background-color: transparent;
+    border-color: #083c54;
+}
+
+.accordion-item {
+    border: none;
+}
+.accordion-body {
+    padding: 1rem 1.25rem; 
+}
+.accordion-flush .accordion-item {
+    border-top: 1px solid #e9ecef;
+}
+.accordion-flush .accordion-header {
+    padding: 0;
+}
+ol {
+    padding-left: 1rem; /* Align the list with the header */
+}
+.ol-2 {
+    padding-left: 1rem; /* Align the list with the header */
+}
+
+.footer {
+    background-color: #fff;
+    padding: 1rem 0;
+}
+.footer .contact-info {
+    font-size: 14px;
+}
+.link-contact {
+    text-decoration: none;
+}
+.footer .social-icons a {
+    font-size: 24px;
+    color: #c00;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer .social-icons a:hover {
+    color: #900;
+}
+.footer .footer-logo img {
+    height: 56px;
+}
+.footer .hr-line {
+    border-top: 1px solid #ddd;
+}
+.footer .logo-img {
+    max-width: 200px;
+    height: auto;
+}
+.footer-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    z-index: 1; /* Ensure footer has a lower z-index */
+}
+
+.footer-last .triangle {
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-last .triangle-left {
+    background-image: url('../assets/images/footer_kiri.png');
+}
+
+.footer-last .triangle-right {
+    background-image: url('../assets/images/footer_kanan.png');
+}
+
+.footer-last .text-center {
+    flex: 1;
+    text-align: center;
+    z-index: 1;
+}
