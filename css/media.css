@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+
+    .tittle {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .imginsu3 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .btn-narrow {
+        width: 60%;
+    }
+   
+}
+
+@media (max-width:991) {
+    .dropdown-menu{
+        background-color: transparent !important    ;
+    }
+    .dropdown:hover>.dropdown-menu {
+        background-color: transparent !important    ;
+    }
+    
+    .dropdown>.dropdown:active {
+        background-color: transparent !important    ;
+    }
+}
+
+@media (max-width: 1024px) {
+    .galeri, .spon, .dukung {
+        width: 100%;
+    }
+
+    .sponhidro {
+        width: 80%;
+    }
+    
+    .partner {
+        width: 100%;
+    }
+
+        .imgfaq {
+            width: 100px !important;
+        }
+}
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px !important;
+    }
+}
+
+@media (max-width: 420px ) {
+    .text-sponsor{
+        font-size: 12px !important;
+    }
+    
+}
+@media (max-width: 992px) {
+    .dropdown-menu {
+        background: none !important;
+        backdrop-filter: none !important;
+        padding-left: 30px;
+        padding-top: 0px !important;
+    }
+}
